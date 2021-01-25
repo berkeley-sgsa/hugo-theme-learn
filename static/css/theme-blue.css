@@ -7,7 +7,24 @@
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
+<<<<<<< HEAD
     --MENU-HEADER-BG-color:#003262; /* Background color of menu header */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    --MENU-HEADER-BG-color:#003262; /* Background color of menu header */
+=======
+=======
+>>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
+    --MENU-HOME-LINK-color: #323232; /* Color of the home button text */
+    --MENU-HOME-LINK-HOVER-color: #5e5e5e; /* Color of the hovered home button text */
+
+    --MENU-HEADER-BG-color:#1C90F3; /* Background color of menu header */
+<<<<<<< HEAD
+>>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
+=======
+>>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
+>>>>>>> 814577b1766644775a5a6eb76ecaf729a8e764e2
     --MENU-HEADER-BORDER-color:#33a1ff; /*Color of menu header border */
 
     --MENU-SEARCH-BG-color:#003262; /* Search field background color (by default borders + icons) */
@@ -102,3 +119,24 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+#body .tags a.tag-link {
+    background-color: var(--MENU-HEADER-BG-color);
+}
+
+#body .tags a.tag-link:before {
+    border-right-color: var(--MENU-HEADER-BG-color);
+}
+
+#homelinks {
+  background: var(--MENU-HEADER-BG-color);
+  background-color: var(--MENU-HEADER-BORDER-color);
+  border-bottom-color: var(--MENU-HEADER-BORDER-color);
+}
+
+#homelinks a {
+  color: var(--MENU-HOME-LINK-color);
+}
+
+#homelinks a:hover {
+  color: var(--MENU-HOME-LINK-HOVERED-color);
+}
