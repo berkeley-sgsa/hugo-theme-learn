@@ -72,14 +72,20 @@
                   {{ end }}
                   <span class="links">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {{ template "breadcrumb" dict "page" . "value" .Title }}
 =======
+=======
+>>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
                  {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
                  {{if $showBreadcrumb}}
                     {{ template "breadcrumb" dict "page" . "value" .Title }}
                  {{ else }}
                    {{ .Title }}
                  {{ end }}
+<<<<<<< HEAD
+>>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
+=======
 >>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
                   </span>
                 </div>
@@ -109,7 +115,11 @@
           {{$parent := .page.Parent }}
           {{ if $parent }}
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.URL $parent.Title .value) }}
+=======
+            {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
+>>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
 =======
             {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
 >>>>>>> 0c0b906ae12f740c89c2d746060e58a3bf5ffb99
